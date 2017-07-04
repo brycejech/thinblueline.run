@@ -31,13 +31,22 @@
 		width: 100%
 		padding: 10px
 
-		.col-3
-			width: 100%
+		.row
+			.col-3
+				width: 100%
+				padding: 10px 0px
+
+				.card
+					padding: 10px
+
+					table
+						width: 95%
+
 	#hero
 		.name-container
 			.logo-txt
 				margin: 0
-				font-size: 28px
+				font-size: 32px
 
 			.tbl
 				margin-top: 5px
@@ -87,7 +96,7 @@
 
 		.name-container
 			.logo-txt
-				font-size: 28px
+				font-size: 34px
 
 			.tbl
 
@@ -125,11 +134,15 @@
 			img
 				margin-top: 10%
 	.container
-		width: 85%
-		padding: 15px
+		width: 100%
+		padding: 10px
 
-		.col-3
-			width: 33.33%
+		.row
+			.col-3
+				padding: 10px
+				.card
+
+
 
 	.heading
 		font-size: 28px
@@ -165,6 +178,14 @@
 		width: 75%
 		padding: 25px
 
+		.row
+			.col-3
+				.card
+					padding: 25px
+
+					table
+						width: 90%
+
 	.heading
 		font-size: 38px
 
@@ -180,9 +201,58 @@
 			.logo-txt
 				font-size: 60px
 
+	.container
+		.row
+			.col-3
+				.card
+
+
+@media(min-width: 1280px)
+
+	.container
+		.row
+			.col-3
+				width: 33.333%
+				padding: 10px
+
+				.card
+					height: 515px
+
+@media(min-width: 1310px)
+
+	.container
+		.row
+			.col-3
+				.card
+					height: 475px
+
+@media(min-width: 1350px)
+
+	.container
+		.row
+			.col-3
+				.card
+					height: 450px
+
+
 @media(min-width: 1500px)
 
+	.container
+
+		.row
+
+			.col-3
+
+				.card
+					height: 410px
 	#hero
 		.name-container
 			.logo-txt
 				font-size: 78px
+
+@media(min-width: 1700px)
+	.container
+		.row
+			.col-3
+				.card
+					height: 365px

@@ -62,7 +62,6 @@ section {
 .container .row .col-3 {
   float: left;
   display: inline-block;
-  padding: 25px;
 }
 
 .container .row .col-3 .card {
@@ -71,7 +70,6 @@ section {
   border-radius: 3px;
   -webkit-box-shadow: 3px 2px 4px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 3px 2px 4px 1px rgba(0, 0, 0, 0.5);
-  height: 350px;
 }
 
 .container .row .col-3 .card p {
@@ -451,12 +449,19 @@ footer a {
     width: 100%;
     padding: 10px;
   }
-  .container .col-3 {
+  .container .row .col-3 {
     width: 100%;
+    padding: 10px 0px;
+  }
+  .container .row .col-3 .card {
+    padding: 10px;
+  }
+  .container .row .col-3 .card table {
+    width: 95%;
   }
   #hero .name-container .logo-txt {
     margin: 0;
-    font-size: 28px;
+    font-size: 32px;
   }
   #hero .name-container .tbl {
     margin-top: 5px;
@@ -505,7 +510,7 @@ footer a {
     float: right;
   }
   #hero .name-container .logo-txt {
-    font-size: 28px;
+    font-size: 34px;
   }
   #hero .name-container .tbl div {
     margin: 2px 0;
@@ -541,11 +546,11 @@ footer a {
     margin-top: 10%;
   }
   .container {
-    width: 85%;
-    padding: 15px;
+    width: 100%;
+    padding: 10px;
   }
-  .container .col-3 {
-    width: 33.33%;
+  .container .row .col-3 {
+    padding: 10px;
   }
   .heading {
     font-size: 28px;
@@ -579,6 +584,12 @@ footer a {
     width: 75%;
     padding: 25px;
   }
+  .container .row .col-3 .card {
+    padding: 25px;
+  }
+  .container .row .col-3 .card table {
+    width: 90%;
+  }
   .heading {
     font-size: 38px;
   }
@@ -594,8 +605,41 @@ footer a {
   }
 }
 
+@media (min-width: 1280px) {
+  .container .row .col-3 {
+    width: 33.333%;
+    padding: 10px;
+  }
+  .container .row .col-3 .card {
+    height: 515px;
+  }
+}
+
+@media (min-width: 1310px) {
+  .container .row .col-3 .card {
+    height: 475px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .container .row .col-3 .card {
+    height: 450px;
+  }
+}
+
 @media (min-width: 1500px) {
+  .container .row .col-3 .card {
+    height: 410px;
+  }
   #hero .name-container .logo-txt {
     font-size: 78px;
   }
 }
+
+@media (min-width: 1700px) {
+  .container .row .col-3 .card {
+    height: 365px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
