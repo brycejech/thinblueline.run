@@ -3,370 +3,374 @@
 
 
 *
-	box-sizing: border-box
-	-webkit-box-sizing: border-box
-	-moz-box-sizing: border-box
+    box-sizing: border-box
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
 
 body
-	position: relative
-	margin: 0
-	font-family: 'Open Sans', sans-serif
-	font-weight: 400
-	color: #262626
+    position: relative
+    margin: 0
+    font-family: 'Open Sans', sans-serif
+    font-weight: 400
+    color: #262626
 
-	background-color: #EBF2F3
+    background-color: #F9F9F9
 
 h1, h2, h3, h4, h5, h6, .menu-btn
-	text-align: center
-	font-family: 'Droid Sans', sans-serif
-	font-weight: 700
+    text-align: center
+    font-family: 'Droid Sans', sans-serif
+    font-weight: 700
 
 h1
-	font-size: 32px
+    font-size: 32px
 
 .heading
-	margin-top: 0
-	color: $dark-blue
-	text-decoration: underline
+    margin-top: 0
+    margin-bottom: 6px
+    color: $dark-blue
+    text-decoration: underline
 
 .img
-	display: inline-block
-	margin: 0 auto
-	height: auto
-	border-radius: 2px
-	+light-shadow
+    display: inline-block
+    margin: 0 auto
+    height: auto
+    border-radius: 2px
+    +light-shadow
 
 section
-	position: relative
-	display: block
-	width: 100%
-	padding: 25px 0
+    position: relative
+    display: block
+    width: 100%
+    padding: 25px 0
 
 .container
-	z-index: 2
-	position: relative
-	margin: 0 auto
-	max-width: 1024px
-	text-align: center
+    z-index: 2
+    position: relative
+    margin: 0 auto
+    max-width: 1024px
+    text-align: center
 
-	.row
-		display: block
-		width: 100%
-		position: relative
+    .row
+        display: block
+        width: 100%
+        position: relative
 
-		.col-3
-			float: left
-			display: inline-block
+        .col-3
+            float: left
+            display: inline-block
 
-			.card
-				padding: 25px
-				background-color: #EDF2FF
-				border-radius: 3px
-				box-shadow: 3px 2px 4px 1px rgba(0, 0, 0, 0.5)
+            .card
+                padding: 25px
+                padding-top: 10px
+                background-color: #FFF
+                border-radius: 3px
+                box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5)
 
-				p
-					font-size: 16px
+                p
+                    font-size: 16px
 
 
 p
-	margin: 20px auto
-	font-weight: 400
-	font-size: 20px
+    margin: 20px auto
+    font-weight: 400
+    font-size: 20px
 
 nav
-	z-index: 10
-	position: fixed
-	width: 100%
+    z-index: 10
+    position: fixed
+    width: 100%
 
-	// transition: all .2s ease-in-out
+    // transition: all .2s ease-in-out
 
-	// background-color: rgba($dark-blue, .45)
+    // background-color: rgba($dark-blue, .45)
 
-	// &:hover
-	// 	background-color: rgba(9, 58, 130, 1)
+    // &:hover
+    //     background-color: rgba(9, 58, 130, 1)
 
 
-	.menu-btn
-		padding: 10px 18px
-		float: right
-		text-decoration: none
+    .menu-btn
+        padding: 10px 18px
+        float: right
+        text-decoration: none
 
 .give-btn
-	font-size: 28px
-	color: white
-	padding: 10px 18px
-	background-color: $dark-blue
-	border: 3px solid white
-	border-radius: 3px
-	text-decoration: none
+    font-size: 28px
+    color: white
+    padding: 10px 18px
+    background-color: $dark-blue
+    border: 3px solid white
+    border-radius: 3px
+    text-decoration: none
 
-	span
-		margin: 0 2px
+    span
+        margin: 0 2px
 
 .mk-donation
-	position: relative
-	border: none
-	top: 0px
-	border: 3px solid $dark-blue
+    position: relative
+    border: none
+    top: 0px
+    border: 3px solid $dark-blue
 
-	background-color: white
-	font-weight: 800
-	color: $dark-blue
+    background-color: white
+    font-weight: 800
+    color: $dark-blue
 
-	transition: all .2s ease-in-out
+    transition: all .2s ease-in-out
 
-	&:hover
-		top: -3px
+    &:hover
+        top: -3px
 
-		box-shadow: 8px 8px 10px -5px rgba(0, 0, 0, 0.75)
+        box-shadow: 8px 8px 10px -5px rgba(0, 0, 0, 0.75)
 
-	&:active
-		top: 2px
-		box-shadow: none
+    &:active
+        top: 2px
+        box-shadow: none
 
 
 #logo-container
-	position: relative
-	display: inline-block
-	height: 100%
+    position: relative
+    display: inline-block
+    height: 100%
 
-	div
-		position: relative
-		height: 100%
+    div
+        position: relative
+        height: 100%
 
-		img
-			display: inline-block
-			margin: 8% 0 0
-			height: 90%
-			width: inherit
+        img
+            display: inline-block
+            margin: 8% 0 0
+            height: 90%
+            width: inherit
 
 #page-wrapper
-	z-index: 0
-	position: relative
-	display: block
-	width: 100%
+    z-index: 0
+    position: relative
+    display: block
+    width: 100%
 
 #hero
-	position: relative
-	z-index: 0
-	display: block
-	width: 100%
-	height: inherit
-	box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.65)
+    position: relative
+    z-index: 0
+    display: block
+    width: 100%
+    height: inherit
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.65)
 
-	img
-		display: block
-		z-index: 0
-		width: 100%
-		height: inherit
+    img
+        display: block
+        z-index: 0
+        width: 100%
+        height: inherit
 
 .bg
-	z-index: 1
-	position: absolute
-	width: 100%
-	height: 100%
-	left: 0
-	top: 0
-	background-color: rgba(9, 58, 130, 0.35)
+    z-index: 1
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    top: 0
+    background-color: rgba(9, 58, 130, 0.35)
 
 .name-container
-	z-index: 2
-	position: absolute
-	top: 50%
-	left: 50%
-	transform: translate(-50%, -50%)
+    z-index: 2
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 12px
 
-	border-radius: 8px
-	// border: 2px solid white
+    border-radius: 8px
 
-	color: white
-	white-space: nowrap
+    color: white
+    white-space: nowrap
 
-	// background-color: rgba(0, 0, 0, .45)
-	// background-color: rgba(9, 58, 130, 0.5)
+    background-color: rgba(185, 185, 185, 0.65)
 
-	.logo-txt
-		margin: 10px 0
-		font-size: 128px
-		// font-family: 'Handlee', cursive
-		font-family: 'Droid Sans', sans-serif
-		color: #e6e6e6
-		text-shadow: 0 0 0 rgba(0, 0, 0, 0), -1px -1px 0 rgba(9, 58, 130, 1), 1px -1px 0 rgba(9, 58, 130, 1), -1px 1px 0 rgba(9, 58, 130, 1), 1px 1px 0 rgba(9, 58, 130, 1)
+    @media screen and (min-width: 768px)
+        padding: 32px
 
-		&.small
-			margin: 0px 0
-			line-height: 90%
-			small
-				font-size: 60%
+    .logo-txt
+        margin: 10px 0
+        font-size: 128px
+        // font-family: 'Handlee', cursive
+        font-family: 'Droid Sans', sans-serif
+        color: #e6e6e6
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0), -1px -1px 0 rgba(9, 58, 130, 1), 1px -1px 0 rgba(9, 58, 130, 1), -1px 1px 0 rgba(9, 58, 130, 1), 1px 1px 0 rgba(9, 58, 130, 1)
+
+        &.small
+            margin: 0px 0
+            line-height: 90%
+            small
+                font-size: 60%
 
 
-	.tbl
-		display: block
-		width: 100%
-		margin-top: -10px
-		// margin: 0 auto
+    .tbl
+        display: block
+        width: 100%
+        margin-top: -10px
+        // margin: 0 auto
 
-		div
-			margin: 5px 0
-			border-radius: 3px
+        div
+            margin: 5px 0
+            border-radius: 3px
 
-			&:first-child, &:last-child
-				display: block
-				width: 100%
-				height: 8px
-				background-color: black
+            &:first-child, &:last-child
+                display: block
+                width: 100%
+                height: 8px
+                background-color: black
 
-			&:nth-child(2)
-				display: block
-				width: 100%
-				height: 4px
-				background-color: rgba(9, 58, 130, 1)
+            &:nth-child(2)
+                display: block
+                width: 100%
+                height: 4px
+                background-color: rgba(9, 58, 130, 1)
 
 .location
-	h2
-		font-family: 'Open Sans', sans-serif
-		margin: 5px 0
+    h2
+        font-family: 'Open Sans', sans-serif
+        margin: 5px 0
 
-	a
-		color: #262626
+    a
+        color: #262626
 
 #info
-	table
-		tr
-			td
-				vertical-align: top
-				padding: 5px 7px
+    table
+        tr
+            td
+                vertical-align: top
+                padding: 5px 7px
 
-				&:first-child
-					font-weight: bold
-					text-align: left
-					text-decoration: underline
-				&:last-child
-					text-align: left
+                &:first-child
+                    font-weight: bold
+                    text-align: left
+                    text-decoration: underline
+                &:last-child
+                    text-align: left
 
 #search
-	text-align: center
+    text-align: center
 
 #search-container
-	display: inline-block
-	position: relative
-	width: auto
+    display: inline-block
+    position: relative
+    width: auto
 
-	input
-		padding: 7px 10px
-		border-radius: 2px
-		border: 1px solid
-		width: 100%
-		font-size: 1.2em
+    input
+        padding: 7px 10px
+        border-radius: 2px
+        border: 1px solid
+        width: 100%
+        font-size: 1.2em
 
-		&:focus
-			box-shadow: 0px 0px 4px 1px $light-blue
-			border-color: lighten($dark-blue, 25%)
+        &:focus
+            box-shadow: 0px 0px 4px 1px $light-blue
+            border-color: lighten($dark-blue, 25%)
 
 #search-results
-	position: absolute
-	display: table-cell
-	vertical-align: bottom
-	width: 100%
-	z-index: 10
-	background-color: white
-	text-align: left
-	border: 1px solid #262626
+    position: absolute
+    display: table-cell
+    vertical-align: bottom
+    width: 100%
+    z-index: 10
+    background-color: white
+    text-align: left
+    border: 1px solid #262626
 
-	span.container
-		display: block
-		position: relative
-		width: 100%
-		white-space: nowrap
-		padding: 3px 8px
-		border-bottom: 1px solid #262626
-		cursor: pointer
+    span.container
+        display: block
+        position: relative
+        width: 100%
+        white-space: nowrap
+        padding: 3px 8px
+        border-bottom: 1px solid #262626
+        cursor: pointer
 
-		span
-			&:first-child
-				display: inline-block
-				width: 100%
-				text-align: left
-			&:nth-child(2)
-				position: absolute
-				right: 8px
+        span
+            &:first-child
+                display: inline-block
+                width: 100%
+                text-align: left
+            &:nth-child(2)
+                position: absolute
+                right: 8px
 
-		&:last-child
-			border-bottom: none
+        &:last-child
+            border-bottom: none
 
-	&:empty
-		display: none
+    &:empty
+        display: none
 
 #result-table
-	width: 90%
-	text-align: left
-	border-collapse: collapse
+    width: 90%
+    text-align: left
+    border-collapse: collapse
 
-	td, th
-		padding: 5px 8px
+    td, th
+        padding: 5px 8px
 
-	.head
-		border-bottom: 1px solid #262626
+    .head
+        border-bottom: 1px solid #262626
 
 #about-cops
-	color: white
+    color: white
 
-	h1
-		color: white
-	.bg
-		background-color: rgba($dark-blue, .9)
+    h1
+        color: white
+    .bg
+        background-color: rgba($dark-blue, .9)
 
 #map
-	height: 500px
+    height: 500px
 
 #other-events
-	background-color: $dark-gray
-	color: white !important
+    background-color: $dark-gray
+    color: white !important
 
-	a
-		color: white
+    a
+        color: white
 
 #help-out
-	background-color: transparentize($dark-blue, .075)
-	text-align: center
-	color: white
+    background-color: transparentize($dark-blue, .075)
+    text-align: center
+    color: white
 
-	p
-		font-size: 1.5em
+    p
+        font-size: 1.5em
 
 footer
-	position: relative
-	z-index: -1
-	font-family: 'Open Sans', sans-serif
-	padding: 15px 0 35px
+    position: relative
+    z-index: -1
+    font-family: 'Open Sans', sans-serif
+    padding: 15px 0 35px
 
-	background-color: $dark-gray
-	color: white
-	text-align: center
+    background-color: $dark-gray
+    color: white
+    text-align: center
 
-	span
-		font-size: 22px
+    span
+        font-size: 22px
 
-	img
-		position: relative
-		height: inherit
-		max-height: 50px
-		width: inherit
-		top: 15px
-		left: 20px
-		z-index: 0
+    img
+        position: relative
+        height: inherit
+        max-height: 50px
+        width: inherit
+        top: 15px
+        left: 20px
+        z-index: 0
 
-	a
-		color: white
+    a
+        color: white
 
 
 /* HELPER CLASSES */
 .cb
-	clear: both
+    clear: both
 .ul
-	text-decoration: underline
+    text-decoration: underline
 .uc
-	text-transform: capitalize
+    text-transform: capitalize
 
 /*  MEDIA QUERIES  */
 
